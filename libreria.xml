@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE catalogo [
-    <!ELEMENT catalogo (libros?, revistas?, usuarios?, prestamos?)>
-    <!ELEMENT libros (libro)>
-    <!ELEMENT libro (autores, etiquetas)>
-    <!ELEMENT autores (autor)>
-    <!ELEMENT autore (nombre (#PCDATA), orcid (#PCDATA)>
-    <!ELEMENT autores (autor)>
-]>
+<!DOCTYPE catalogo SYSTEM "libreria.dtd">
 <catalogo fecha="2025-10-04">
     <libros>
         <libro id="L001" categoria="novela" isbn="9780306406157" paginas="352">
-                <titulo>La sombra del viento</titulo>
-                <anio>2001</anio>
+            <titulo>La sombra del viento</titulo>
+            <anio>2001</anio>
             <autores>
                 <autor>
                     <nombre>Carlos Ruiz Zafón</nombre>
