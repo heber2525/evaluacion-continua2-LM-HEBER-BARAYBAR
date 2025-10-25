@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE catalogo SYSTEM "libreria.dtd">
-<catalogo fecha="2025-10-04">
+<!-- <!DOCTYPE catalogo SYSTEM "libreria.dtd"> -->
+<catalogo fecha="2025-10-04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libreria.xsd"> 
     <libros>
         <libro id="L001" categoria="novela" isbn="9780306406157" paginas="352">
             <titulo>La sombra del viento</titulo>
@@ -53,4 +53,4 @@
             <estado>en_curso</estado>
         </prestamo>
     </prestamos>
-</catalogo>
+</catalogo> 
