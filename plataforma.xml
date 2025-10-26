@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plataforma SYSTEM "plataforma.dtd">
+<plataforma fecha_publicacion="23-05-2005">
+    <cursos>
+        <curso id="C001" codigo="212">
+            <titulo>DAM</titulo>
+            <nivel>FP Grado Superior</nivel>
+            <modalidad>Distancia</modalidad>
+            <horas>200</horas>
+            <modulos>
+                <modulo clave="L1">
+                    <nombre>Python</nombre>
+                    <horas>200</horas>
+                </modulo>
+                <modulo clave="L2">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <horas>200</horas>
+                </modulo>
+            </modulos>
+        </curso>
+        <curso id="C002" codigo="213">
+            <titulo>DAW</titulo>
+            <nivel>FP Grado Medio</nivel>
+            <modalidad>Presencial</modalidad>
+            <horas>1400</horas>
+        </curso>
+    </cursos>
+    <alumnos>
+        <alumno id="A001" nif="12349040-R">
+            <nombre>Heber Baraybar</nombre>
+            <email>heber@gmail.com</email>
+            <telefono>671237888</telefono>
+        </alumno>
+        <alumno id="A002" nif="21330200-P">
+            <nombre>Heber Baraybar</nombre>
+            <email>r@gmail.com</email>
+        </alumno>
+    </alumnos>
+    <matriculas>
+        <matricula id="M001" alumnoRef="A001" cursoRef="C001">
+            <fecha_alta>22-06-2025</fecha_alta>
+            <estado>En tramite</estado>
+        </matricula>
+        <matricula id="M002" alumnoRef="A002" cursoRef="C002">
+            <fecha_alta>02-01-2024</fecha_alta>
+            <estado>Confirmada</estado>
+        </matricula>
+    </matriculas>
+    <evaluaciones>
+        <evaluacion id="E01" matriculaRef="M001">
+            <instrumento>Codigo y Teoría</instrumento>
+            <convocatoria>Junio 2025</convocatoria>
+            <nota>8.5</nota>
+        </evaluacion>
+        <evaluacion id="E02" matriculaRef="M002">
+            <instrumento>Teoria</instrumento>
+            <convocatoria>Mayo 2025</convocatoria>
+            <nota>9.5</nota>
+        </evaluacion>
+    </evaluaciones>
+</plataforma>
