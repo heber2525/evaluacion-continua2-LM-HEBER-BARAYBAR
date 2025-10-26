@@ -26,12 +26,12 @@
         </curso>
     </cursos>
     <alumnos>
-        <alumno id="A001" nif="12349040-R">
+        <alumno id="A001" nif="12349040R">
             <nombre>Heber Baraybar</nombre>
             <email>heber@gmail.com</email>
             <telefono>671237888</telefono>
         </alumno>
-        <alumno id="A002" nif="21330200-P">
+        <alumno id="A002" nif="21330200P">
             <nombre>Heber Baraybar</nombre>
             <email>r@gmail.com</email>
         </alumno>
