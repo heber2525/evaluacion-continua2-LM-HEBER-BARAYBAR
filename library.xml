@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE catalogo SYSTEM "library.dtd"> -->
+<library  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library.xsd">
+    <book>
+        <title>Harry Potter and the Philospher's Stone'</title>
+        <author>J.K Rowling</author>
+        <year>1991</year>
+        <publisher>Bloomsbury</publisher>
+        <pages>256</pages>
+    </book> 
+    <book>
+        <title>The Lord of the Rings</title>
+        <author>J. R. R. Tolkien</author>
+        <year>1955</year>
+        <publisher>Allen and Unwin</publisher>
+        <pages>423</pages>
+    </book>
+</library>
