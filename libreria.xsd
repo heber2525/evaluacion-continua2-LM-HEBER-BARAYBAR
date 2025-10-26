@@ -28,7 +28,7 @@
             <xs:element ref="autores"/>
             <xs:element ref="etiquetas" minOccurs="0"/>
         </xs:sequence>
-        <xs:attribute name="id" type="xs:string" use="required"/>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
         <xs:attribute name="categoria" type="categoriaLibro" use="required"/>
         <xs:attribute name="isbn" type="tipoIsbn" use="required"/>
         <xs:attribute name="paginas" type="cantidadPaginas" use="optional"/>
@@ -73,7 +73,7 @@
                     <xs:element name="titulo" type="nombreLibroRevista"/>
                     <xs:element name="anio" type="aniosLibroRevista"/>
                 </xs:sequence>
-                <xs:attribute name="id" type="xs:string" use="required"/>
+                <xs:attribute name="id" type="xs:ID" use="required"/>
                 <xs:attribute name="area" type="areaRevista" use="required"/>
                 <xs:attribute name="issn" type="xs:string" use="required"/>
                 <xs:attribute name="numero" type="numeroRevista" use="required"/>
@@ -93,7 +93,7 @@
                     <xs:element name="nombre" type="tipoNombre"/>
                     <xs:element name="email" type="xs:string"/>
                 </xs:sequence>
-                <xs:attribute name="id" type="xs:string" use="required"/>
+                <xs:attribute name="id" type="xs:ID" use="required"/>
                 <xs:attribute name="tipo" type="tipoUsuario" use="required"/>
             </xs:complexType>
         </xs:element>
@@ -112,7 +112,7 @@
                     <xs:element name="fecha_fin" type="xs:date" minOccurs="0"/>
                     <xs:element name="estado" type="xs:string"/>
                 </xs:sequence>
-                <xs:attribute name="id" type="xs:string" use="required"/>
+                <xs:attribute name="id" type="xs:ID" use="required"/>
                 <xs:attribute name="itemRef" type="xs:string" use="required"/>
                 <xs:attribute name="usuarioRef" type="xs:string" use="required"/>
             </xs:complexType>
